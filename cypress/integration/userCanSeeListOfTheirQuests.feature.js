@@ -16,28 +16,28 @@ describe('User can see a list of all quests', () => {
       cy.get("#quests-link").click()
     });
     
-    it('user can see all their pending quests', () => {
-      cy.get('#pending-quests').click()
-      cy.get('#quest-list').should('contain', 'I will need help with this 1')
-      cy.get('#quest-list').should('contain', 'I will need help with this 2')
-      cy.get('#quest-list').should('not.contain', 'I need help with this 1')
-      cy.get('#quest-list').should('not.contain', 'I needed help with this 1')
-    })
-    
     it('user can see all their active quests', () => {
-      cy.get('#active-quests').click()
-      cy.get('#quest-list').should('contain', 'I need help with this 1')
-      cy.get('#quest-list').should('contain', 'I need help with this 2')
-      cy.get('#quest-list').should('not.contain', 'I needed help with this 1')
-      cy.get('#quest-list').should('not.contain', 'I will need help with this 1')
+      cy.get('#active').click()
+      cy.get('#my-list').should('contain', 'I need help with this 1')
+      cy.get('#my-list').should('contain', 'I need help with this 2')
+      cy.get('#my-list').should('not.contain', 'I needed help with this 1')
+      cy.get('#my-list').should('not.contain', 'I will need help with this 1')
+    })
+
+    it('user can see all their pending quests', () => {
+      cy.get('#pending').click()
+      cy.get('#my-list').should('contain', 'I will need help with this 1')
+      cy.get('#my-list').should('contain', 'I will need help with this 2')
+      cy.get('#my-list').should('not.contain', 'I need help with this 1')
+      cy.get('#my-list').should('not.contain', 'I needed help with this 1')
     })
   
     it('user can see all their completed quests', () => {
-      cy.get('#completed-quests').click()
-      cy.get('#quest-list').should('contain', 'I needed help with this 1')
-      cy.get('#quest-list').should('contain', 'I needed help with this 2')
-      cy.get('#quest-list').should('not.contain', 'I need help with this 1')
-      cy.get('#quest-list').should('not.contain', 'I will need help with this 1')
+      cy.get('#completed').click()
+      cy.get('#my-list').should('contain', 'I needed help with this 1')
+      cy.get('#my-list').should('contain', 'I needed help with this 2')
+      cy.get('#my-list').should('not.contain', 'I need help with this 1')
+      cy.get('#my-list').should('not.contain', 'I will need help with this 1')
     })
   })
   
@@ -52,8 +52,7 @@ describe('User can see a list of all quests', () => {
     });
     
     it('shows a message instead', () => {
-      cy.get('#pending-quests').click()
-      cy.get('#no-quests-message').should('exist')
+      cy.get('#no-requests-message').should('exist')
     });
   })
 })

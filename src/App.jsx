@@ -7,7 +7,6 @@ import NewRequest from "./components/NewRequest";
 import LoginForm from "./components/LoginForm";
 import "./App.css";
 import MyRequestsPage from "./components/MyRequestsPage";
-import MyQuestsPage from "./components/MyQuestsPage"
 import { persistLogin } from "./modules/auth";
 
 const App = () => {
@@ -24,8 +23,7 @@ const App = () => {
         <Route exact path="/" component={BrowseRequests}></Route>
         <Route exact path="/login" component={LoginForm} />
         <Route exact path="/myrequest/newrequest" component={NewRequest} />
-        <Route exact path="/myrequest/requests" component={MyRequestsPage} />
-        <Route exact path="/myrequest/quests" component={MyQuestsPage} />
+        <Route exact path="/myrequest/:prop" component={MyRequestsPage} />
       </Switch>
     </>
   );
