@@ -60,7 +60,7 @@ describe("User can post new reQuest, after navigating to creation form", () => {
       cy.get("#submit-btn").contains("Submit").click();
       cy.get("#title").then(($title) => {
         expect($title[0].validationMessage).to.eq(
-          "Please fill out this field."
+          "Please fill in this field."
         );
       });
     });
@@ -70,7 +70,7 @@ describe("User can post new reQuest, after navigating to creation form", () => {
       cy.get("#submit-btn").contains("Submit").click();
       cy.get("#description").then(($description) => {
         expect($description[0].validationMessage).to.eq(
-          "Please fill out this field."
+          "Please fill in this field."
         );
       });
     });
@@ -81,7 +81,7 @@ describe("User can post new reQuest, after navigating to creation form", () => {
       cy.get("#submit-btn").contains("Submit").click();
       cy.get("#reward").then(($reward) => {
         expect($reward[0].validationMessage).to.eq(
-          "Please fill out this field."
+          "Please fill in this field."
         );
       });
     });
