@@ -27,7 +27,7 @@ const MyRequestsPage = () => {
               <Button>Create new reQuest</Button>
             </Link>
           </div>
-          <MyListComponent />
+          <MyListComponent page ="requests" />
           {mySelectedRequest && <Offers request={mySelectedRequest}/>}
         </>
       )}

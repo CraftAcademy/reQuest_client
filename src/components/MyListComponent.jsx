@@ -2,21 +2,27 @@ import React, { useEffect, useState } from "react";
 import { Card } from "semantic-ui-react";
 import MyRequestCard from "./MyRequestCard";
 import { getMyRequests } from "../modules/getRequests";
+import MyQuestsPage from "./MyQuestsPage";
 
-const MyListComponent = () => {
-  const [myRequests, setMyRequests] = useState([]);
+const MyListComponent = ({page}) => {
+  const [myList, setMyList] = useState([]);
 
   const getList = async () => {
-    const requests = await getMyRequests();
-    setMyRequests(requests);
+    if (page === "requests") {
+      const requests = await getMyRequests();
+      setMyList(requests);
+    } else {
+      const quests = await getMyQuests();
+      setMyList(quests)
+    }
   };
 
   useEffect(() => {
     getList();
   }, []);
 
-  const cards = myRequests.map((request) => (
-    <MyRequestCard key={request.id} request={request} />
+  const cards = myList.map((request) => (
+    page === "request" ? <MyRequestCard key={request.id} request={request} /> : <MyQuestCard>
   ));
 
   return (
