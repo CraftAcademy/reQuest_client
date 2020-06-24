@@ -35,19 +35,6 @@
       "title": "Copy fixtures and then copy them again",
       "reward": 250,
       "status": "active"
-    },
-    {
-      "id": 7,
-      "title": "Teach me Korean",
-      "reward": 200,
-      "status": "completed"
-    },
-        {
-      "id": 8,
-      "title": "Im in prison",
-      "status": "completed",
-      "reward": 250
     }
-
   ]
 }

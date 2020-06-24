@@ -5,8 +5,8 @@
       "title": "Change to winter tires",
       "description": "Need a hand with tyres",
       "requester": "someone1@email.com",
-      "location": { "area": "Nobu", "long": 18.98, "lat": 58.18 },
-      "categories": ["outdoors", "heavy", "car"],
+      "distance": 1.3,
+      "categories": "home",
       "reward": 90,
       "offerable": true
     },
@@ -15,8 +15,8 @@
       "title": "Paint fences in backyard",
       "description": "Need a hand with painting",
       "requester": "someone2@email.com",
-      "location": { "area": "Yola", "long": 18.98, "lat": 58.18 },
-      "categories": ["outdoors", "heavy", "paint"],
+      "distance": 1.2,
+      "categories": "home",
       "reward": 150,
       "offerable": false
       
@@ -26,8 +26,8 @@
       "title": "Teach me French",
       "description": "Need a tongue with French",
       "requester": "user@mail.com",
-      "location": { "area": "Buma", "long": 18.98, "lat": 58.18 },
-      "categories": ["language", "beginner"],
+      "distance": 11.3,
+      "categories": "home",
       "reward": 200,
       "offerable": false
     },
@@ -36,8 +36,8 @@
       "title": "Want to learn piano",
       "description": "Need a Mozart to help",
       "requester": "someone4@email.com",
-      "location": { "area": "Veca", "long": 18.98, "lat": 58.18 },
-      "categories": ["piano", "instrument", "beginner"],
+      "distance": 12.3,
+      "categories": "home",
       "reward": 200,
       "offerable": true
     },
@@ -46,8 +46,8 @@
       "title": "Need someone for grocery shopping",
       "description": "Need someone grosser that the grocer",
       "requester": "someone5@email.com",
-      "location": { "area": "Aswa", "long": 18.98, "lat": 58.18 },
-      "categories": ["shopping", "carry"],
+      "distance": 1.33,
+      "categories": "home",
       "reward": 35,
       "offerable": true
     },
@@ -56,8 +56,8 @@
       "title": "Need someone to fix the window",
       "description": "Need a hand with a window",
       "requester": "someone6@email.com",
-      "location": { "area": "Aler", "long": 18.98, "lat": 58.18 },
-      "categories": ["outdoors", "tools"],
+      "distance": 1.31,
+      "categories": "home",
       "reward": 55,
       "offerable": true
     },
@@ -66,8 +66,8 @@
       "title": "Babysitter needed",
       "description": "Need a hand with a baby",
       "requester": "someone7@email.com",
-      "location": { "area": "Paba", "long": 18.98, "lat": 58.18 },
-      "categories": ["children", "baby"],
+      "distance": 11.3,
+      "categories": "home",
       "reward": 80,
       "offerable": true
     },
@@ -76,8 +76,8 @@
       "title": "Move out help needed",
       "description": "Need a hand with furniture",
       "requester": "someone8@email.com",
-      "location": { "area": "Jeno", "long": 18.98, "lat": 58.18 },
-      "categories": ["carry", "heavy"],
+      "distance": 11.3,
+      "categories": "home",
       "reward": 120,
       "offerable": true
     },
@@ -86,8 +86,8 @@
       "title": "Move out help needed",
       "description": "Need a hand with furniture",
       "requester": "someone9@email.com",
-      "location": { "area": "Jeno", "long": 18.98, "lat": 58.18 },
-      "categories": ["carry", "heavy"],
+      "distance": 15.3,
+      "categories": "home",
       "reward": 120,
       "offerable": true
     }

@@ -1,35 +1,34 @@
 {
   "requests": [
-  {
-    "id": 3,
-    "title": "Teach me French",
-    "description": "Need a tongue with French",
-    "requester": "someone3@email.com",
-    "location": { "area": "Buma", "long": 18.98, "lat": 58.18 },
-    "categories": ["Education"],
-    "reward": 200,
-    "offerable": null
-  },
-  {
-    "id": 4,
-    "title": "Want to learn piano",
-    "description": "Need a Mozart to help",
-    "requester": "someone4@email.com",
-    "location": { "area": "Veca", "long": 18.98, "lat": 58.18 },
-    "categories": ["Education"],
-    "reward": 200,
-    "offerable": null
-  },
-  {
-    "id": 7,
-    "title": "Babysitter needed",
-    "description": "Need a hand with a baby",
-    "requester": "someone7@email.com",
-    "location": { "area": "Paba", "long": 18.98, "lat": 58.18 },
-    "categories": ["Education"],
-    "reward": 80,
-    "offerable": null
-  }
-
-]
+    {
+      "id": 3,
+      "title": "Teach me French",
+      "description": "Need a tongue with French",
+      "requester": "someone3@email.com",
+      "distance": 1.3,
+      "categories": "education",
+      "reward": 200,
+      "offerable": null
+    },
+    {
+      "id": 4,
+      "title": "Want to learn piano",
+      "description": "Need a Mozart to help",
+      "requester": "someone4@email.com",
+      "distance": 1.2,
+      "categories": "education",
+      "reward": 200,
+      "offerable": null
+    },
+    {
+      "id": 7,
+      "title": "Babysitter needed",
+      "description": "Need a hand with a baby",
+      "requester": "someone7@email.com",
+      "distance": 11.3,
+      "categories": "education",
+      "reward": 80,
+      "offerable": null
+    }
+  ]
 }
