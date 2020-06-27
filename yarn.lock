@@ -1977,6 +1977,16 @@ acorn@^7.1.1:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.1.tgz#e35668de0b402f359de515c5482a1ab9f89a69bf"
   integrity sha512-add7dgA5ppRPxCFJoAGfMDi7PIBXq1RtGo7BhbLaxwrXPOmw8gq48Y9ozT01hUKy9byMjlR20EJhu5zlkErEkg==
 
+actioncable-client-react@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/actioncable-client-react/-/actioncable-client-react-1.0.3.tgz#997201fbaf81fa3e2620115dba595b805e205bc9"
+  integrity sha512-x8QRR6zAhj7h35+6uVa+Iz8cMqOR8NIZghnLv/MigfdK+1Zv5zvfC0/TiSMRtZPkO3FsP0f594P+5JCGBJKFlQ==
+
+actioncable@^5.2.4-3:
+  version "5.2.4-3"
+  resolved "https://registry.yarnpkg.com/actioncable/-/actioncable-5.2.4-3.tgz#cb4d1f4a6a8164ac9abe623eca2c382fe05e7d47"
+  integrity sha512-SrGfg2W2GKGfYOlsOUnqjdihUhIVoyb5ewsMtpfE/Z3ZK/j5Gj2e/YWp2A7Wo+aeB1aewhPxorFxIGVRowbX4w==
+
 address@1.1.2, address@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/address/-/address-1.1.2.tgz#bf1116c9c758c51b7a933d296b72c221ed9428b6"

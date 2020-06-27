@@ -14,7 +14,6 @@ const MyRequestCard = ({ request, page }) => {
   const toggleActiveCard = async () => {
     dispatch({ type: "RESET_MY_SELECTED_REQUEST" });
     if (!myActiveRequest) {
-      debugger;
       page === "requests"
         ? updateMyRequest(request, dispatch)
         : updateMyQuest(request, dispatch)
