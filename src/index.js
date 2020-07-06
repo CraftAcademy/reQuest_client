@@ -14,7 +14,7 @@ if (process.env.NODE_ENV === "production") {
   axios.defaults.baseURL = process.env.REACT_APP_LOCALURL;
 }
 const store = configureStore();
-
+window.store = store
 ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter>
